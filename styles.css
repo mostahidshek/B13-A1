@@ -40,26 +40,30 @@ nav ul{
   border-radius: 4px;
   border: 1px solid white;
 }
-.about{
+.hero{
   background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
-  width: 1600PX;
-  height: 655PX;
-  /* box-sizing: border-box; */
+  width: 1350px;
+  height: 550px;
   background-repeat: no-repeat;
-  margin:auto 0;
-  
+  margin:80px auto;
+  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 20px;
 }
-.about-section span{
-/* align-items: center; */
-background-color: aliceblue;
-/* justify-content: center; */
-border: 1px solid white;
+.hero-con{
+/* display: inline-flex; */
+align-items: center;
+color: #30B868;
+
+gap: 8px;
+
+margin-bottom: 25px;
 border-radius: 5px;
-/* justify-content: space-between; */
+
+text-align: center;
 }
-.about-section h1{
+.hero h1{
   color: aliceblue;
   text-align: center;
   font-size: 62px;
@@ -67,7 +71,7 @@ border-radius: 5px;
   padding: 10px 20px;
   
 }
-.about-section p{
+.hero-content p{
 font-size: 18px;
 font-weight: 24px;
 line-height: 24px;
@@ -77,10 +81,10 @@ color: rgba(255, 255, 255, 1);
 width: 1360px;
 height: 60px;
 }
-.about-section h1.YYYY{
+.hero-content .fast-btn{
   color: #30B868;
 }
-.about-section button{
+.hero-content .nd-btn{
   background-color: #30B868;
   
 }
@@ -237,7 +241,12 @@ font-weight: 500;
 line-height: 28px;
 }
 .line{
-  margin: 50px 30px;
-  
+  margin: 8px 66px;
   border: 1px solid hsla(239, 93%, 48%, 0.941);
+  
+  
+}
+.finish{
+  text-align: center;
+  color: rgba(250, 250, 250, 1);
 }
